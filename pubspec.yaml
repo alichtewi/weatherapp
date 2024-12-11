@@ -1,0 +1,33 @@
+name: weather_app
+description: A simple weather application.
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Third-party packages
+  cupertino_icons: ^1.0.8
+  geolocator: ^10.0.0
+  geocoding: ^2.0.0
+  http: ^1.2.1
+  lottie: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+
+    - assets/cloudy.json
+    - assets/rainy.json
+    - assets/thunder.json
+    - assets/sunny.json
+
+
